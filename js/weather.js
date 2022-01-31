@@ -16,7 +16,6 @@ button.addEventListener(`click`, () =>{
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=imperial&appid=${apiKey}`)
     .then(res => res.json())
     .then(data => {
-        // console.log(data);
 
         cityTxt.value= " "
 
