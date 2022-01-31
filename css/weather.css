@@ -1,0 +1,8 @@
+body{
+    background-color: skyblue;
+}
+
+
+.card{
+    transform: translate(490px, 220px);
+}
